@@ -16,7 +16,7 @@ days_in_month = {
 
 def next_date(day, month, year):
     """
-    Возвращает следущую дату
+    Возвращает следующую дату
 
     Arg:
         day(int): день
@@ -38,7 +38,7 @@ def next_date(day, month, year):
 
 def prev_date(day, month, year):
     """
-    Возвращает предыдущею дату
+    Возвращает предыдущую дату
 
     Arg:
         day(int): день
