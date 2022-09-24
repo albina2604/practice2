@@ -27,11 +27,10 @@ def next_date(day, month, year):
         (day, month, year):следующая дата
     """
     day += 1
-    if day > (days_in_month[month]
-              + leap_year(year) if month == 2 else 0):
+    if day > (days_in_month[month] + leap_year(year) if month == 2 else 0):
         day = 1
         month += 1
-    elif month == 13:
+    if month == 13:
         month = 1
         year += 1
     return day, month, year
